@@ -1,7 +1,7 @@
 '''
 
 Program Content
-Python the basics
+Python the basics (virtual environment)
 Files and loops in Python
 Booleans and IF Conditions in Python
 Dictionary in Python

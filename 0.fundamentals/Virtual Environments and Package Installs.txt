@@ -1,0 +1,29 @@
+Package Installations
+---------------------
+I decided to name my virtual environment py_course. You can choose another name if you prefer.
+
+We can use the same virtual environment for the entire course, so only need to do the following steps once.
+
+1. Open a command prompt, and make sure to switch to the <my_root> directory
+
+2. Create the new virtual environment (I use Python 3.12 here, but you can choose whatever you want here):
+		Mac/Linux: python3.12 -m venv py_course
+		Windows: py -3.12 -m venv py_course
+
+3. Activate the new environment:
+		Mac/Linux: source py39_course/bin/activate
+		Windows: py_course\Scripts\activate.bat
+4. In the shell (command prompt) where you just activated your environment, navigate to the course downloads for Section 2 - the folder that contains the file "requirements.txt"
+
+5. We need to install the packages documented in that file, so now run this:
+   		pip install -r requirements.txt
+
+   		That's it, once pip has finished running your virtual environment is ready to be used.
+You only need to do this once, unless you delete the virtual environment, in which case you just follow the same steps again.
+
+The next time you want to use this environment, you just need to activate it.
+
+If you want to see what packages have been installed in your environment, use
+		pip freeze
+
+But be careful, this will list not just the packages you installed, but also additional packages that were required by the packages you installed (so pip installs both the package you specify, and the required dependencies for that package)
