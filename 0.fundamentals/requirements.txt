@@ -4,3 +4,4 @@ python-dateutil
 requests
 openpyxl
 xlrd
+pandas
