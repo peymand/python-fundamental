@@ -1,8 +1,8 @@
 Virtual Environments and Package Installs
 =========================================
-Please make sure that you have Python 3.8+ already properly installed on your machine.
+Please make sure that you have Python 3.10+ already properly installed on your machine.
 
-I will be using python3.9 when running Python, but if you choose to install another version, just use whichever version name you decided to use (e.g. python3.8, python3.10, etc).
+I will be using python3.12 when running Python, but if you choose to install another version, just use whichever version name you decided to use (e.g. python3.8, python3.10, etc).
 
 You should choose some base folder where you will:
 	- save the course materials
@@ -17,19 +17,19 @@ Next, you should download the course materials, and save those materials in some
 
 Package Installations
 ---------------------
-I decided to name my virtual environment py39_course. You can choose another name if you prefer.
+I decided to name my virtual environment py312_course. You can choose another name if you prefer.
 
 We can use the same virtual environment for the entire course, so only need to do the following steps once.
 
 1. Open a command prompt, and make sure to switch to the <my_root> directory
 
-2. Create the new virtual environment (I use Python 3.9 here, but you can choose whatever you want here):
-		Mac/Linux: python3.9 -m venv py39_course
-		Windows: py -3.9 -m venv py39_course
+2. Create the new virtual environment (I use Python 3.12 here, but you can choose whatever you want here):
+		Mac/Linux: python3.12 -m venv py312_course
+		Windows: py -3.12 -m venv py312_course
 
 3. Activate the new environment:
-		Mac/Linux: source py39_course/bin/activate
-		Windows: py39_course\Scripts\activate.bat
+		Mac/Linux: source py312_course/bin/activate
+		Windows: py312_course\Scripts\activate.bat
 
 4. In the shell (command prompt) where you just activated your environment, navigate to the course downloads for Section 2 - the folder that contains the file "requirements.txt"
 	
